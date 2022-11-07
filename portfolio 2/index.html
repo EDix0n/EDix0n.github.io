@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-media.css">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__burger">
+                <span></span>
+            </div>
+            <nav class="header__menu">
+                <ul class="header__list">
+                    <li><a href="#home" class="header__link">Home</a></li>
+                    <li><a href="#about" class="header__link">About me</a></li>
+                    <li><a href="#skills" class="header__link">Skills</a></li>
+                    <li><a href="#portfolio" class="header__link">Portfolio</a></li>
+                    <li><a href="#contacts" class="header__link">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="intro_container" id="home">
+            <hr>
+            <div class="intro_info">
+                <h1>Denis Novik</h1>
+                <p class="info">UX | UI designer 27 years old, Grodno</p>
+                <p class="info1">RU <b>| ENG</b></p>
+            </div>
+            <img src="img/1 foto.jpg" alt="avatar">
+        </section>
+        <section class="about_container" id="about">
+            <h2>About me</h2>
+            <div class="block">
+                <p>Hi, I'm Denis – UX/UI designer from Minsk.<br> I'm interested in design and
+                    everything
+                    connected with it.
+                </p>
+                <p>I'm studying at courses "Web and mobile design<br> interfaces" in IT-Academy.</p>
+                <p>Ready to implement excellent projects<br> with wonderful people.</p>
+            </div>
+        </section>
+        <section class="skills_container" id="skills">
+            <h2>Skills</h2>
+            <p>I work in such programs as</p>
+            <div class="cards">
+                <div class="card">
+                    <img src="img/icon 1.jpg" alt="photoshop">
+                    <p>Adobe Photoshop</p>
+                    <div class="stars">
+                        <img src="img/Star active.png" alt="star">
+                        <img src="img/Star active.png" alt="star">
+                        <img src="img/Star active.png" alt="star">
+                        <img src="img/Star active.png" alt="star">
+                        <img src="img/Star passive.png" alt="star">
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/icon 2.jpg" alt="illustrator">
+                    <p>Adobe Illustrator</p>
+                    <div class="stars">
+                        <img src="img/Star active.png" alt="star">
+                        <img src="img/Star active.png" alt="star">
+                        <img src="img/Star active.png" alt="star">
+                        <img src="img/Star passive.png" alt="star">
+                        <img src="img/Star passive.png" alt="star">
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/icon 3.jpg" alt="effects">
+                    <p>Adobe<br> After Effects</p>
+                    <div class="stars">
+                        <img src="img/Star active.png" alt="star">
+                        <img src="img/Star active.png" alt="star">
+                        <img src="img/Star active.png" alt="star">
+                        <img src="img/Star active.png" alt="star">
+                        <img src="img/Star passive.png" alt="star">
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/icon 4.jpg" alt="figma">
+                    <p>Figma</p>
+                    <div class="stars1">
+                        <img src="img/Star active.png" alt="star">
+                        <img src="img/Star active.png" alt="star">
+                        <img src="img/Star active.png" alt="star">
+                        <img src="img/Star active.png" alt="star">
+                        <img src="img/Star passive.png" alt="star">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio_container" id="portfolio">
+            <div class="portfolio_body">
+                <h2>Portfolio</h2>
+                <img src="img/portfolio 1.jpg" alt="fashion store">
+                <p>Online fashion store - Homepage</p>
+                <img src="img/portfolio 2.jpg" alt="rebook">
+                <p>Reebok Store - Concept</p>
+                <img src="img/portfolio 3.jpg" alt="portable marco">
+                <p>Braun Landing Page - Concept</p>
+            </div>
+        </section>
+        <section class="contacts_container" id="contacts">
+            <h2>Contacts</h2>
+            <p>Want to know more or just chat? You are welcome!</p>
+            <button type="button" class="btn" id="myBtn">Send message</button>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h1>Contact Us</h1>
+                    <form class="form_container">
+                        <div class="form_field">
+                            <div class="form_field1">
+                                <label for="text" class="form_label">Name</label>
+                                <div><input type="text" required placeholder="John Wick" class="form_input"></div>
+                            </div>
+                            <div class="form_field1">
+                                <label for="Email" class="form_label">Email</label>
+                                <div><input type="text" name="user_email" id="inputEmail" required
+                                        placeholder="Example@domain.com" class="form_input"></div>
+                            </div>
+                            <div class="form_field1">
+                                <label for="Phone" class="form_label">Phone</label>
+                                <div><input type="phone" name="user_phone" id="inputPhone" required placeholder="Phone"
+                                        class="form_input"></div>
+                            </div>
+                            <div class="form_field1">
+                                <label for="text" class="form_label">Message</label>
+                                <div><textarea placeholder="Message" name="message" required id="messageText" cols="10"
+                                        rows="10" class="form_input_mes"></textarea></div>
+                            </div>
+                        </div>
+                        <div class="form_footer">
+                            <button type="button" class="modal-btn">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="icons">
+                <a href="https://www.linkedin.com" target="_blank"><img src="img/icon 5.png" alt="in"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="img/icon 6.png" alt="Instagram"></a>
+                <a href="https://www.behance.net" target="_blank"><img src="img/icon 7.png" alt="Behance"></a>
+                <a href="https://dribbble.com" target="_blank"><img src="img/icon 8.png" alt="Dribble"></a>
+            </div>
+            <p>Like me on<br> LinkedIn, Instagram, Behance, Dribble</p>
+        </section>
+    </main>
+    <footer>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
