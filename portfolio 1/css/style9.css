@@ -1,0 +1,15 @@
+.map img {
+   display: block;
+   width: 100%;
+}
+
+.step {
+   background: #000000;
+   height: 94px;
+}
+
+.step_container {
+   text-align: center;
+   line-height: 94px;
+   color: white;
+}

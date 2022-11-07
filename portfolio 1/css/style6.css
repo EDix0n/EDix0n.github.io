@@ -1,0 +1,54 @@
+.statistic {
+   background: url(../img/чёрный\ фон.jpg) center/cover fixed no-repeat;
+}
+
+.statistic_container {
+   margin: 0 auto;
+   padding-bottom: 100px;
+}
+
+.statistic_container h2 {
+   text-align: center;
+   max-width: 390px;
+   font-size: 33px;
+   margin: 0px auto 30px;
+   padding-bottom: 5px;
+   text-transform: uppercase;
+   padding-top: 100px;
+   color: rgb(177, 192, 206);
+}
+
+.statistic_container hr {
+   height: 4px;
+   border: none;
+   background: #d17700;
+   width: 80px;
+   margin: 0 auto 90px;
+   opacity: 1;
+
+}
+
+
+.statistic_item {}
+
+.statistic_item img {
+   height: 54px;
+}
+
+.statistic_item h3 {
+   font-size: 37px;
+   font-weight: 800;
+   margin: 34px 0;
+   color: rgb(177, 192, 206);
+}
+
+.statistic_item p {
+   font-size: 17px;
+   font-weight: 500;
+   text-transform: uppercase;
+   color: rgb(177, 192, 206);
+}
+
+.margin-right {
+   margin-right: 53px;
+}

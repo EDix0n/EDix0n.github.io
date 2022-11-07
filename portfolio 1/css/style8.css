@@ -1,0 +1,137 @@
+.contacts {
+   background: url(../img/чёрный\ фон.jpg) center/cover no-repeat;
+   color: white;
+}
+
+.contacts_container {
+   padding-bottom: 68px;
+}
+
+.contacts_container h2 {
+   text-align: center;
+   max-width: 390px;
+   font-size: 33px;
+   margin: 0px auto 30px;
+   padding-bottom: 5px;
+   text-transform: uppercase;
+   padding-top: 100px;
+}
+
+.contacts_container hr {
+   height: 4px;
+   border: none;
+   background: #d17700;
+   width: 80px;
+   margin: 0 auto 32px;
+   opacity: 1;
+
+}
+
+.contacts_subscription {
+   text-align: center;
+   font-size: 16px;
+   margin-bottom: 48px;
+}
+
+.contacts_data_item {}
+
+.contacts_data_item img {
+   height: 24px;
+   margin-bottom: 16px;
+
+}
+
+.contacts_data_item p {
+   font-size: 16px;
+}
+
+.contacts_data_item a {
+   text-decoration: none;
+   color: #fff;
+}
+
+.contacts_data_item a:hover {
+   color: #d17700;
+}
+
+.contacts_data_item a:active {
+   color: rgb(156, 40, 40);
+}
+
+.contacts_container h3 {
+   margin-top: 40px;
+   text-align: center;
+   margin-bottom: 46px;
+   font-size: 21px;
+   text-transform: uppercase;
+}
+
+.contacts_inputs input {
+   height: 34px;
+   margin-bottom: 14px;
+   background: rgba(210, 214, 220, 0.93);
+   font-size: 16px;
+   width: 100%;
+   padding-left: 15px;
+}
+
+.contacts_inputs .secondInput {
+   float: right;
+}
+
+.contacts_container textarea {
+   display: block;
+   width: 100%;
+   resize: none;
+   padding-top: 10px;
+   padding-left: 15px;
+   background: rgba(220, 224, 230, 0.93);
+   font-size: 16px;
+   margin-bottom: 30px;
+}
+
+.contacts_container textarea:hover {
+   background: white;
+   color: black;
+}
+
+.contacts_container input[type="submit"] {
+   display: block;
+   margin: 0 auto;
+   background: none;
+   color: white;
+   border: 2px solid white;
+   height: 46px;
+   width: 124px;
+   border-radius: 8px;
+   font-size: 20px;
+   margin-bottom: 76px;
+}
+
+.contacts_container input:hover {
+   background: white;
+   color: black;
+}
+
+.contacts_container input:active {}
+
+.contacts_social {}
+
+.contacts_social a {
+   display: inline-block;
+   margin: 0 auto;
+   transform: scale(1);
+}
+
+.contacts_social img {
+   height: 30px;
+   transform: scale(1);
+}
+
+.contacts_social img:hover {
+   transform: scale(1.2);
+}
+
+.contacts_social img:active {
+   transform: scale(1.4);
+}

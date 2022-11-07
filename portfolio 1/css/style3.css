@@ -1,0 +1,43 @@
+.works {
+   background: url(../img/чёрный\ фон.jpg) center/cover no-repeat;
+}
+
+.works_container {
+   padding-top: 110px;
+   padding-bottom: 96px;
+}
+
+.works_container h2 {
+   text-align: center;
+   width: 230px;
+   font-size: 33px;
+   margin: 0px auto 30px;
+   text-transform: uppercase;
+   font-weight: 600;
+   color: rgb(177, 192, 206);
+}
+
+.works_container hr {
+   height: 4px;
+   border: none;
+   background: #d17700;
+   width: 80px;
+   margin: 0 auto 100px;
+   opacity: 1;
+}
+
+.works_item img {
+   margin-bottom: 20px;
+   height: 40px;
+}
+
+.works_item h3 {
+   font-size: 18px;
+   color: #cf7600;
+   margin-bottom: 20px;
+}
+
+.works_item p {
+   font-size: 16px;
+   color: rgb(177, 192, 206);
+}

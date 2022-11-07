@@ -1,0 +1,115 @@
+.calculator {
+   padding-bottom: 84px;
+   background: #ddd;
+}
+
+.calculator_container {
+   max-width: 1080px;
+   -webkit-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+   -moz-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+   box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+   padding-top: 74px;
+   background: linear-gradient(60deg, rgb(39, 27, 27) 12%, rgba(124, 85, 13, 0.67) 60%, rgb(10, 7, 7) 15%);
+}
+
+.calculator_container h2 {
+   text-align: center;
+   max-width: 358px;
+   font-size: 43px;
+   margin: 0px auto 50px;
+   color: rgb(177, 192, 206);
+
+}
+
+.calculator_inner {
+   max-width: 890px;
+   margin: 0 auto;
+   padding-bottom: 50px;
+}
+
+.calculator_inner h3 {
+   font-size: 29px;
+   text-transform: uppercase;
+   margin-bottom: 24px;
+}
+
+.calculator_inner select {
+   margin-bottom: 44px;
+}
+
+.calculator_inner hr {
+   height: 2px;
+   border: none;
+   background: #eee;
+   width: 100%;
+   margin: 0 auto 24px;
+   opacity: 1;
+
+}
+
+.mySelect {
+   display: block;
+   width: 100%;
+   max-width: 890px;
+   height: 54px;
+   background: #eeeeee;
+   padding-left: 24px;
+   font-size: 16px;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   background: url(../icons/select.png) 98% 54%/auto no-repeat,
+      #eee;
+}
+
+.days,
+.price {
+   margin-bottom: 0px;
+   font-size: 21px;
+}
+
+.clear {
+   clear: both;
+}
+
+.calculator_footer p {
+   margin-bottom: 0;
+}
+
+.calculator_footer .text {
+   float: left;
+   color: rgb(177, 192, 206);
+}
+
+.calculator_footer .digit {
+   font-size: 29px;
+   float: right;
+   color: rgb(177, 192, 206);
+}
+
+.calculator_footer button4 {
+   width: 200px;
+}
+
+.calculator_footer button4 {
+   margin-top: 25px;
+   display: block;
+   width: 200px;
+   background: #63b5ae;
+   height: 44px;
+   line-height: 44px;
+   text-align: center;
+   color: white;
+   font-size: 20px;
+   border-radius: 8px;
+   transform: scale(1);
+
+}
+
+.calculator_footer button4:hover {
+   color: #EA7800;
+}
+
+.calculator_footer button4:active {
+   transform: scale(1.1);
+}
