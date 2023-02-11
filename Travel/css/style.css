@@ -1,0 +1,698 @@
+body {
+    font-family: 'Aleo', serif;
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+* {
+    transition: 0.4s;
+    scroll-behavior: smooth;
+}
+
+/*header*/
+.header__title {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(242, 120, 92, 0.7);
+    box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+    height: 90px;
+}
+
+.header__logo {
+    margin: 25px 0 0 116px;
+    cursor: pointer;
+}
+
+.header__list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+    gap: 42px;
+}
+
+.header__list li:nth-child(5) {
+    display: none;
+}
+
+.header__list li:nth-child(6) {
+    display: none;
+}
+
+.nav-button {
+    background: none;
+    display: none;
+}
+
+.header__list li {
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 16px;
+}
+
+.header__list li a {
+    color: #FFFFFF;
+}
+
+.header__list li a:hover {
+    color: #0D606F;
+}
+
+.header__list li a:active {
+    color: rgba(179, 42, 65, 0.67);
+}
+
+.header__title .button1 {
+    width: 103px;
+    height: 41px;
+    background: #0D606F;
+    color: #FFFFFF;
+    border-radius: 10px;
+    margin: 23px 123px 0px -4px;
+}
+
+.header__title .button1:hover {
+    color: #F2785C;
+}
+
+.header__title .button1:active {
+    color: rgba(179, 42, 65, 0.67);
+}
+
+/*modal popup*/
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+.modal .modal-content {
+    max-width: 650px;
+    background: linear-gradient(177.09deg, #FFFFFF 6.15%, #0D606F 202.69%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    margin: 5% auto;
+}
+
+.modal .btn5 {
+    margin-bottom: 20px;
+    max-width: 560px;
+    width: 100%;
+    height: 56px;
+    background-color: #1877F2;
+    color: #FFFFFF;
+    font-family: 'Red Hat Text';
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 10px;
+    line-height: 26px;
+}
+
+.modal .btn5:hover {
+    background-color: #0756bd;
+}
+
+.modal .btn5:active {
+    transform: scale(1.05);
+}
+
+.modal .btn5 img,
+.btn6 img {
+    padding-right: 15px;
+}
+
+.modal .btn6 {
+    margin-bottom: 30px;
+    max-width: 560px;
+    width: 100%;
+    height: 56px;
+    font-family: 'Red Hat Text';
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 10px;
+    line-height: 26px;
+    color: #0D606F;
+    background: #FFFFFF;
+}
+
+.modal .btn6:hover {
+    background-color: rgba(75, 71, 71, 0.171);
+}
+
+.modal .btn6:active {
+    transform: scale(1.05);
+}
+
+.modal .btn7 {
+    max-width: 560px;
+    width: 100%;
+    height: 54px;
+    margin-top: 20px;
+    background: #0D606F;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: 'Red Hat Text';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.modal .btn7:hover {
+    color: #F2785C;
+}
+
+.modal .btn7:active {
+    transform: scale(1.05);
+    color: rgba(179, 42, 65, 0.67);
+}
+
+
+.modal .line {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.line__1 {
+    border-top: 1px solid rgba(13, 96, 111, 0.5);
+    max-width: 261px;
+    width: 100%;
+}
+
+.line__text {
+    font-family: 'Aleo';
+    font-weight: 700;
+    font-size: 20px;
+    position: relative;
+    top: -11px;
+    line-height: 24px;
+    padding: 0 9px;
+    color: rgba(13, 96, 111, 0.5);
+}
+
+.line__2 {
+    border-top: 1px solid rgba(13, 96, 111, 0.5);
+    max-width: 261px;
+    width: 100%;
+}
+
+.modal .line h6 {
+    position: absolute;
+    background-color: #fff;
+    color: rgba(13, 96, 111, 0.5);
+    font-family: 'Aleo';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    top: -13px;
+    right: 50%;
+}
+
+.modal .line1 {
+    border-top: 1px solid rgba(13, 96, 111, 0.5);
+    margin-top: 26px;
+}
+
+.modal .modal-content h1 {
+    font-family: 'Aleo';
+    font-size: 32px;
+    font-weight: 700;
+    color: #0D606F;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.modal .form_container {
+    padding: 30px 45px 23px;
+}
+
+.modal .form_input_mes {
+    padding: 10px 15px;
+    border-width: 1px;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    border-color: rgba(0, 0, 0, 0);
+    background: rgba(220, 220, 220, 0.25);
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    margin-top: 15px;
+    width: 500px;
+    height: 80px;
+}
+
+.modal .form_label {
+    font-size: 16px;
+    line-height: 19px;
+    font-family: 'Aleo';
+    color: #0D606F;
+}
+
+.modal .password {
+    padding-top: 10px;
+    font-family: 'Aleo';
+    font-weight: 700;
+    text-align: center;
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: #0D606F;
+    text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.16);
+    cursor: pointer;
+}
+
+.modal .password:hover {
+    color: rgb(69, 36, 129);
+}
+
+.modal .register {
+    color: rgba(13, 96, 111, 0.5);
+    font-family: 'Aleo';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.modal .register__reg:hover {
+    color: rgb(69, 36, 129);
+}
+
+.modal .register__reg:active {
+    color: #2c0672;
+}
+
+.modal .register__reg {
+    text-decoration: underline;
+    color: #0D606F;
+}
+
+.modal .form_input {
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    line-height: 20px;
+    background: #FFFFFF;
+    color: rgb(0, 0, 0);
+    margin: 5px 0px 20px;
+    max-width: 560px;
+    width: 100%;
+    height: 54px;
+}
+
+.modal .modal-btn {
+    width: 103px;
+    height: 47px;
+    background-color: black;
+    border-radius: 20px;
+    display: block;
+    color: #fff;
+    font-size: 17px;
+}
+
+.modal .modal-btn:hover {
+    color: rgba(179, 42, 65, 0.67);
+    transform: scale(1.1);
+}
+
+.modal.modal-btn:active {
+    color: rgb(129, 36, 129);
+}
+
+.header__title .button1 p {
+    padding: 12px;
+}
+
+/*main section*/
+.main {
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 765px;
+    background: url('../img/main-image.jpg') center;
+}
+
+.main__title {
+    margin: 30px 0px 0px 120px;
+    max-width: 892px;
+    height: 422px;
+}
+
+.main__title h1 {
+    font-size: 80px;
+    font-family: 'Aleo', serif;
+    color: #FFFFFF;
+    line-height: 96px;
+}
+
+.main__title p {
+    font-size: 20px;
+    font-family: 'Aleo';
+    font-style: italic;
+    color: #FFFFFF;
+    padding-top: 35px;
+}
+
+.main__title__search:hover {
+    background: rgba(235, 255, 255, 0.7);
+}
+
+.main__title__search {
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 46px;
+    cursor: pointer;
+}
+
+.main__title__search p {
+    font-family: 'Aleo';
+    font-style: italic;
+    font-size: 24px;
+    color: #F2785C;
+    padding: 37px 0 0 41px;
+}
+
+.main__title .button {
+    width: 228px;
+    height: 59px;
+    background: #0D606F;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-size: 24px;
+    font-family: 'Red Hat Text', sans-serif;
+    margin: 18px 18px 18px 0px;
+}
+
+.main__title .button:hover {
+    color: #F2785C;
+}
+
+.main__title .button:active {
+    color: rgba(179, 42, 65, 0.67);
+}
+
+/* step section*/
+.steps {
+    max-width: 1440px;
+    height: 424px;
+    margin: 0 auto;
+}
+
+.steps h1 {
+    padding-top: 80px;
+    font-family: 'Red Hat Text';
+    font-size: 40px;
+    color: #F2785C;
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 53px;
+}
+
+.steps__title {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 160px;
+}
+
+.steps__title__img p {
+    padding-top: 30px;
+    font-family: 'Aleo';
+    font-size: 20px;
+}
+
+/* destination section */
+.destination {
+    position: relative;
+    height: 1042px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.destination h2 {
+    font-family: 'Red Hat Text';
+    font-size: 40px;
+    color: #F2785C;
+    line-height: 53px;
+    text-align: center;
+    margin-bottom: 46px;
+}
+
+.destination img {
+    max-width: 100%;
+}
+
+.slider {
+    width: 800px;
+    height: 800px;
+    overflow: hidden;
+}
+
+.middle {
+    position: relative;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navigation {
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.bar {
+    height: 8px;
+    width: 30px;
+    margin: 6px;
+    cursor: pointer;
+    background-color: #ddd;
+    opacity: 0.5;
+    border-radius: 10px;
+    transition: all .4s ease;
+}
+
+.bar:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+    background-color: #fff;
+}
+
+input[name="r"] {
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides {
+    width: 400%;
+    height: 100%;
+    display: flex;
+}
+
+.slide {
+    width: 25%;
+    transition: all .6s ease;
+}
+
+.slide img {
+    max-width: 100%;
+    height: 100%;
+}
+
+#r1:checked~.s1 {
+    margin-left: 0;
+}
+
+#r2:checked~.s1 {
+    margin-left: -25%;
+}
+
+#r3:checked~.s1 {
+    margin-left: -50%;
+}
+
+.destination .button3 {
+    width: 228px;
+    height: 59px;
+    background: #0D606F;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-size: 24px;
+    font-family: 'Red Hat Text', sans-serif;
+    display: flex;
+    margin: 40px auto 0px;
+    justify-content: space-between;
+}
+
+.destination .button3:hover {
+    color: #F2785C;
+}
+
+.destination .button3:active {
+    color: rgb(129, 36, 129);
+}
+
+
+.destination .button3 img {
+    padding: 9.5px 10px 9.5px 31px;
+}
+
+.destination .button3 p {
+    padding: 13.5px 31px 13.5px 0px;
+}
+
+/* .destination__image {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    gap: 60px;
+}
+
+.frame {
+    text-align: center;
+    margin-bottom: 40px;
+}
+}*/
+
+/* Stoires section */
+.stories {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.stories__title {
+    max-width: 1201px;
+    margin: 0 auto;
+    padding: 40px 10px 0 10px;
+}
+
+.stories h2 {
+    font-family: 'Red Hat Text';
+    font-size: 40px;
+    color: #F2785C;
+    line-height: 53px;
+    text-align: center;
+    margin: 40px 0px 40px 0px;
+}
+
+.stories__bg {
+    background: url('../img/bg.jpg') center;
+    max-height: 1331px;
+}
+
+.stories__opac {
+    background: rgba(255, 255, 255, 0.7);
+    height: 1270px;
+}
+
+.stories__travel {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.stories__travel img {
+    border-radius: 16px;
+    filter: drop-shadow(0px 4px 4px #0D606F);
+}
+
+.stories__travel h3 {
+    font-family: 'Aleo';
+    font-size: 35px;
+    line-height: 42px;
+    color: #0D606F;
+    margin-bottom: 24px;
+}
+
+.stories__travel:last-child {
+    margin-bottom: 40px;
+}
+
+.stories__travel p {
+    font-family: 'Aleo';
+    font-size: 20px;
+    line-height: 24px;
+    color: #0D606F;
+    height: 184px;
+}
+
+.stories__travel span {
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
+.stories__travel span:hover {
+    color: rgb(69, 36, 129);
+}
+
+.stories__travel span:active {
+    color: rgb(61, 30, 199);
+}
+
+.stories .button {
+    width: 228px;
+    height: 59px;
+    background: #0D606F;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-size: 24px;
+    font-family: 'Red Hat Text', sans-serif;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.stories .button:hover {
+    color: #F2785C;
+}
+
+.stories .button:active {
+    color: rgb(129, 36, 129);
+}
+
+
+.stories .button img {
+    padding: 9.5px 10px 9.5px 31px;
+}
+
+.stories .button p {
+    padding: 13.5px 31px 13.5px 0px;
+}
+
+.footer__title {
+    display: flex;
+    justify-content: space-around;
+    padding: 14px 0px 13.35px;
+    align-items: center;
+    color: #FFFFFF;
+    margin-left: 135px;
+}
+
+.footer__title p {
+    font-family: 'Red Hat Text';
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+}
+
+.social img:hover {
+    transform: scale(1.1);
+}
+
+.social img:active {
+    transform: scale(1.2);
+}

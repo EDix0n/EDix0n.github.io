@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Travel</title>
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,400;0,700;1,700&family=Red+Hat+Text:wght@500&display=swap"
+      rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+   <section class="main" id="how-it-works">
+      <header class="header__title">
+         <div class="header__logo">
+            <picture>
+               <source media="(max-width: 576px)" srcset="img/logo-mobil.svg">
+               <img src="img/logo.png">
+            </picture>
+         </div>
+         <nav id="nav" class="header__menu">
+            <ul class="header__list">
+               <li><a href="#how-it-works" class="header__link">How It Works</a></li>
+               <li><a href="#plan" class="header__link">Plan Your Trip</a></li>
+               <li><a href="#destinations" class="header__link">Destinations</a></li>
+               <li><a href="#story" class="header__link">Travel Stories</a></li>
+               <li><a href="#myModal" class="header__link">Account</a></li>
+               <li><a href="#social" class="header__link">Social Media</a></li>
+            </ul>
+         </nav>
+         <button class="button1" type="button" id="myBtn">Login</button>
+         <div id="myModal" class="modal">
+            <div class="modal-content">
+               <div class="modal-content-top">
+                  <h1>Log in to your account</h1>
+               </div>
+               <form class="form_container">
+                  <div class="form_field">
+                     <button class="btn5" id="btn5"><img src="img/Facebook Logo.svg">Sign In with Facebook</button>
+                     <button class="btn6" id="btn6"><img src="img/Google logo.svg">Sign In with Google</button>
+                     <div class="line">
+                        <div class="line__1"></div>
+                        <div class="line__text">or</div>
+                        <div class="line__2"></div>
+                     </div>
+                     <div class="form_field1">
+                        <label for="Email" class="form_label">E-mail</label>
+                        <div><input type="text" name="user_email" id="inputEmail" required class="form_input"></div>
+                     </div>
+                     <div class="form_field1">
+                        <label for="Password" class="form_label">Password</label>
+                        <div><input type="password" name="user_pass" id="inputPass" required class="form_input"></div>
+                     </div>
+                     <button class="btn7" id="btn7">Sign In</button>
+                     <p class="password">Forgot Your Password?</p>
+                     <div class="line1"></div>
+                     <p class="register">Don’t have an account?&nbsp<span class="register__reg">Register</span>
+                  </div>
+               </form>
+            </div>
+         </div>
+         <button id="nav-btn" class="nav-button">
+            <img id="nav-btn-img" src="img/nav-open.svg" width="35px" height="32px" alt="Nav button">
+         </button>
+      </header>
+      <div class="main__title">
+         <div class="main__title_first">
+            <h1>Explore the beauty of the World</h1>
+            <p>Receive personalized recommendations for countries, hotels, activities and more</p>
+         </div>
+         <div class="main__title__search">
+            <p>What would you like to do?</p>
+            <button class="button" type="button">Start Planning</button>
+         </div>
+      </div>
+   </section>
+   <section class="steps" id="plan">
+      <h1>3 STEPS TO THE PERFECT TRIP</h1>
+      <div class="steps__title">
+         <div class="steps__title__img">
+            <picture>
+               <source media="(max-width: 880px)" srcset="img/mobil-frame1.png">
+               <img src="img/Frame 1.png">
+            </picture>
+            <p>Tell us what you want to do</p>
+         </div>
+         <div class="steps__title__img">
+            <picture>
+               <source media="(max-width: 880px)" srcset="img/mobil-frame2.png">
+               <img src="img/Frame 2.png">
+            </picture>
+            <p>Share us preferable dates</p>
+         </div>
+         <div class="steps__title__img">
+            <picture>
+               <source media="(max-width: 880px)" srcset="img/mobil-frame3.png">
+               <img src="img/Frame 3.png">
+            </picture>
+            <p>We will give you recommendations</p>
+         </div>
+      </div>
+   </section>
+   <section class="destination" id="destinations">
+      <h2>POPULAR DESTINATIONS</h2>
+      <div class="slider middle">
+         <div class="slides">
+            <input type="radio" name="r" id="r1" checked>
+            <input type="radio" name="r" id="r2">
+            <input type="radio" name="r" id="r3">
+
+            <div class="slide s1">
+               <picture>
+                  <source media="(max-width: 768px)" srcset="img/55.jpg">
+                  <img src="img/5.jpg" alt="">
+               </picture>
+            </div>
+            <div class="slide">
+               <picture>
+                  <source media="(max-width: 768px)" srcset="img/66.jpg">
+                  <img src="img/6.jpg" alt="">
+               </picture>
+            </div>
+            <div class="slide">
+               <picture>
+                  <source media="(max-width: 768px)" srcset="img/77.jpg">
+                  <img src="img/7.jpg" alt="">
+               </picture>
+            </div>
+         </div>
+         <div class="navigation">
+            <label for="r1" class="bar"></label>
+            <label for="r2" class="bar"></label>
+            <label for="r3" class="bar"></label>
+         </div>
+      </div>
+      <button class="button3">
+         <picture>
+            <source media="(max-width: 576px)" srcset="img/mobil-right.png">
+            <img src="img/arrow-right.png">
+         </picture>
+         <p>Find More</p>
+      </button>
+   </section>
+   <section class="stories" id="story">
+      <h2>TRAVEL STORIES</h2>
+      <div class="stories__bg">
+         <div class="stories__opac">
+            <div class="stories__title">
+               <div class="stories__travel">
+                  <picture>
+                     <source media="(max-width: 880px)" srcset="img/mobil-travel1.jpg">
+                     <img src="img/1.jpg">
+                  </picture>
+                  <div class="stories__text">
+                     <h3>10 Photos of Attractive Thailand</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip
+                        ex
+                        ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                        dolore
+                        eu
+                        fugiat
+                        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                        deserunt
+                        mollit
+                        anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <span>Read
+                           More</span>
+                     </p>
+                  </div>
+               </div>
+               <div class="stories__travel">
+                  <picture>
+                     <source media="(max-width: 880px)" srcset="img/mobil-travel2.jpg">
+                     <img src="img/2.jpg">
+                  </picture>
+                  <div class="stories__text">
+                     <h3>Canyonlands National Park, Utah</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip
+                        ex
+                        ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                        dolore
+                        eu
+                        fugiat
+                        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                        deserunt
+                        mollit
+                        anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <span>Read
+                           More</span>
+                     </p>
+                  </div>
+               </div>
+               <div class="stories__travel">
+                  <picture>
+                     <source media="(max-width: 880px)" srcset="img/mobil-travel3.jpg">
+                     <img src="img/3.jpg">
+                  </picture>
+                  <div class="stories__text">
+                     <h3>I left my heart in the Mountains!</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip
+                        ex
+                        ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                        dolore
+                        eu
+                        fugiat
+                        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                        deserunt
+                        mollit
+                        anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <span>Read
+                           More</span>
+                     </p>
+                  </div>
+               </div>
+               <div class="stories__travel">
+                  <picture>
+                     <source media="(max-width: 880px)" srcset="img/mobil-travel4.jpg">
+                     <img src="img/4.jpg">
+                  </picture>
+
+                  <div class="stories__text">
+                     <h3>The Longest journey in my life!</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip
+                        ex
+                        ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                        dolore
+                        eu
+                        fugiat
+                        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                        deserunt
+                        mollit
+                        anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <span>Read
+                           More</span>
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <button class="button">
+               <picture>
+                  <source media="(max-width: 576px)" srcset="img/mobil-right.png">
+                  <img src="img/arrow-right.png">
+               </picture>
+               <p>See More</p>
+            </button>
+         </div>
+         <div class="footer__title" id="social">
+            <div></div>
+            <p>All Rights Reserved © Travel Portal</p>
+            <div class="social">
+               <div class="social__icons">
+                  <a href="#" target="_blank"><img src="img/instag.png" alt="instagramm"></a>
+               </div>
+               <div class="social__icons">
+                  <a href="#" target="_blank"><img src="img/youtube.png" alt="youtube"></a>
+               </div>
+               <div class="social__icons">
+                  <a href="#" target="_blank"><img src="img/twitter.png" alt="twitter"></a>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+      </div>
+   </section>
+   <script src="js/script.js"></script>
+</body>
+
+</html>
